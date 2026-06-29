@@ -1,13 +1,13 @@
 {
     "success": true,
     "data": {
-        "id": 2022,
+        "id": 2026,
         "result": {
             "success": true,
             "loads": [
                 {
                     "id": 1,
-                    "name": "\u0421\u0446\u0435\u043f\u043a\u0430 (\u0446\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u043e\u0441\u043d\u044b\u0439)",
+                    "name": "\u0421\u0446\u0435\u043f\u043a\u0430 \u0446\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u043e\u0441\u043d\u0430\u044f (Atego)",
                     "view": 4,
                     "type": 0,
                     "layers": [
@@ -23,7 +23,7 @@
                                 "z": 7200
                             },
                             "plus": {
-                                "wg": 7200,
+                                "wg": 3600,
                                 "cn": 36,
                                 "vl": 8640000000
                             },
@@ -42,9 +42,9 @@
                                     "name": "\u0422\u043e\u0447\u043a\u0430 A",
                                     "data": [
                                         {
-                                            "uuid": 315703,
+                                            "uuid": 333087,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -76,7 +76,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -87,9 +87,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315740,
+                                            "uuid": 333109,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -121,7 +121,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -132,9 +132,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315761,
+                                            "uuid": 333119,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -166,7 +166,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -177,9 +177,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315781,
+                                            "uuid": 333131,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -211,7 +211,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -222,9 +222,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315806,
+                                            "uuid": 333154,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -256,7 +256,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -267,9 +267,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315828,
+                                            "uuid": 333171,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -301,7 +301,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -312,9 +312,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315857,
+                                            "uuid": 333187,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -346,7 +346,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -357,9 +357,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315878,
+                                            "uuid": 333204,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -391,7 +391,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -402,9 +402,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315900,
+                                            "uuid": 333223,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -436,7 +436,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -447,9 +447,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315923,
+                                            "uuid": 333275,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -481,7 +481,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -492,9 +492,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315941,
+                                            "uuid": 333316,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -526,7 +526,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -537,9 +537,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315962,
+                                            "uuid": 333354,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -571,7 +571,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -582,9 +582,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 315980,
+                                            "uuid": 333378,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -616,7 +616,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -627,9 +627,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316007,
+                                            "uuid": 333404,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -661,7 +661,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -672,9 +672,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316036,
+                                            "uuid": 333444,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -706,7 +706,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -717,9 +717,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316081,
+                                            "uuid": 333487,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -751,7 +751,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -762,9 +762,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316099,
+                                            "uuid": 333508,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -796,7 +796,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -807,9 +807,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316131,
+                                            "uuid": 333534,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -841,7 +841,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -852,9 +852,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316155,
+                                            "uuid": 333564,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -886,7 +886,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -897,9 +897,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316170,
+                                            "uuid": 333587,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -931,7 +931,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -942,9 +942,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316181,
+                                            "uuid": 333616,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -976,7 +976,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -987,9 +987,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316199,
+                                            "uuid": 333682,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1021,7 +1021,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1032,9 +1032,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316228,
+                                            "uuid": 333703,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1066,7 +1066,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1077,9 +1077,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316249,
+                                            "uuid": 333717,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1111,7 +1111,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1122,9 +1122,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316263,
+                                            "uuid": 333729,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1156,7 +1156,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1167,9 +1167,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316285,
+                                            "uuid": 333741,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1201,7 +1201,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1212,9 +1212,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316302,
+                                            "uuid": 333756,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1246,7 +1246,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1257,9 +1257,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316320,
+                                            "uuid": 333762,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1291,7 +1291,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1302,9 +1302,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316331,
+                                            "uuid": 333774,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1336,7 +1336,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1347,9 +1347,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316373,
+                                            "uuid": 333877,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1381,7 +1381,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1392,9 +1392,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316392,
+                                            "uuid": 333904,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1426,7 +1426,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1437,9 +1437,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316414,
+                                            "uuid": 333930,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1471,7 +1471,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1482,9 +1482,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316435,
+                                            "uuid": 333957,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1516,7 +1516,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1527,9 +1527,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316462,
+                                            "uuid": 333988,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1561,7 +1561,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1572,9 +1572,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316487,
+                                            "uuid": 334018,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1606,7 +1606,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1617,9 +1617,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 316504,
+                                            "uuid": 334039,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1651,7 +1651,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1676,33 +1676,33 @@
                                 "z": 0
                             },
                             "scale": {
-                                "x": 2420,
-                                "y": 2400,
-                                "z": 8000
+                                "x": 2480,
+                                "y": 2680,
+                                "z": 7300
                             },
                             "plus": {
-                                "wg": 2800,
+                                "wg": 1400,
                                 "cn": 14,
                                 "vl": 3360000000
                             },
                             "maxn": {
-                                "x": 1190,
-                                "y": -700,
-                                "z": -2266
+                                "x": 1160,
+                                "y": -840,
+                                "z": 850
                             },
                             "max_l": 2800,
                             "max_h": 500,
                             "max_w": 2400,
-                            "weight": 3500,
+                            "weight": 14100,
                             "groups": [
                                 {
                                     "id": 1,
                                     "name": "\u0422\u043e\u0447\u043a\u0430 A",
                                     "data": [
                                         {
-                                            "uuid": 321252,
+                                            "uuid": 338794,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1712,9 +1712,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": -910,
-                                                "y": -950,
-                                                "z": 134
+                                                "x": -940,
+                                                "y": -1090,
+                                                "z": 3250
                                             },
                                             "touch": [],
                                             "scale": {
@@ -1734,7 +1734,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1745,9 +1745,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321292,
+                                            "uuid": 338814,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1757,9 +1757,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": -310,
-                                                "y": -950,
-                                                "z": 134
+                                                "x": -340,
+                                                "y": -1090,
+                                                "z": 3250
                                             },
                                             "touch": [],
                                             "scale": {
@@ -1779,7 +1779,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1790,9 +1790,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321318,
+                                            "uuid": 338841,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1802,9 +1802,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": 290,
-                                                "y": -950,
-                                                "z": 134
+                                                "x": 260,
+                                                "y": -1090,
+                                                "z": 3250
                                             },
                                             "touch": [],
                                             "scale": {
@@ -1824,7 +1824,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1835,9 +1835,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321334,
+                                            "uuid": 338867,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1847,9 +1847,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": 890,
-                                                "y": -950,
-                                                "z": 134
+                                                "x": 860,
+                                                "y": -1090,
+                                                "z": 3250
                                             },
                                             "touch": [],
                                             "scale": {
@@ -1869,7 +1869,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1880,9 +1880,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321358,
+                                            "uuid": 338906,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1892,9 +1892,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": -910,
-                                                "y": -950,
-                                                "z": -666
+                                                "x": -940,
+                                                "y": -1090,
+                                                "z": 2450
                                             },
                                             "touch": [],
                                             "scale": {
@@ -1914,7 +1914,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1925,9 +1925,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321375,
+                                            "uuid": 338932,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1937,9 +1937,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": -310,
-                                                "y": -950,
-                                                "z": -666
+                                                "x": -340,
+                                                "y": -1090,
+                                                "z": 2450
                                             },
                                             "touch": [],
                                             "scale": {
@@ -1959,7 +1959,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -1970,9 +1970,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321382,
+                                            "uuid": 338961,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -1982,9 +1982,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": 290,
-                                                "y": -950,
-                                                "z": -666
+                                                "x": 260,
+                                                "y": -1090,
+                                                "z": 2450
                                             },
                                             "touch": [],
                                             "scale": {
@@ -2004,7 +2004,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -2015,9 +2015,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321409,
+                                            "uuid": 338988,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -2027,9 +2027,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": 890,
-                                                "y": -950,
-                                                "z": -666
+                                                "x": 860,
+                                                "y": -1090,
+                                                "z": 2450
                                             },
                                             "touch": [],
                                             "scale": {
@@ -2049,7 +2049,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -2060,9 +2060,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321438,
+                                            "uuid": 339027,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -2072,9 +2072,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": -810,
-                                                "y": -950,
-                                                "z": -1366
+                                                "x": -840,
+                                                "y": -1090,
+                                                "z": 1750
                                             },
                                             "touch": [],
                                             "scale": {
@@ -2094,7 +2094,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -2105,9 +2105,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321457,
+                                            "uuid": 339039,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -2117,9 +2117,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": -10,
-                                                "y": -950,
-                                                "z": -1366
+                                                "x": -40,
+                                                "y": -1090,
+                                                "z": 1750
                                             },
                                             "touch": [],
                                             "scale": {
@@ -2139,7 +2139,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -2150,9 +2150,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321479,
+                                            "uuid": 339057,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -2162,9 +2162,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": 790,
-                                                "y": -950,
-                                                "z": -1366
+                                                "x": 760,
+                                                "y": -1090,
+                                                "z": 1750
                                             },
                                             "touch": [],
                                             "scale": {
@@ -2184,7 +2184,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -2195,9 +2195,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321507,
+                                            "uuid": 339066,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -2207,9 +2207,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": -810,
-                                                "y": -950,
-                                                "z": -1966
+                                                "x": -840,
+                                                "y": -1090,
+                                                "z": 1150
                                             },
                                             "touch": [],
                                             "scale": {
@@ -2229,7 +2229,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -2240,9 +2240,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321517,
+                                            "uuid": 339081,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -2252,9 +2252,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": -10,
-                                                "y": -950,
-                                                "z": -1966
+                                                "x": -40,
+                                                "y": -1090,
+                                                "z": 1150
                                             },
                                             "touch": [],
                                             "scale": {
@@ -2274,7 +2274,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -2285,9 +2285,9 @@
                                             }
                                         },
                                         {
-                                            "uuid": 321536,
+                                            "uuid": 339099,
                                             "id": 1,
-                                            "weight": 200,
+                                            "weight": 100,
                                             "square": 480000,
                                             "count": 1,
                                             "stuck": 0,
@@ -2297,9 +2297,9 @@
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": 790,
-                                                "y": -950,
-                                                "z": -1966
+                                                "x": 760,
+                                                "y": -1090,
+                                                "z": 1150
                                             },
                                             "touch": [],
                                             "scale": {
@@ -2319,7 +2319,7 @@
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
-                                                "weight": 200,
+                                                "weight": 100,
                                                 "count": 50,
                                                 "stuck": 0,
                                                 "limit": 0,
@@ -2344,70 +2344,70 @@
                             "tt": {
                                 "history": {
                                     "wg": 4406,
-                                    "l": 1300,
-                                    "l1": 100,
-                                    "a": 2,
-                                    "xtct": 458,
+                                    "l": 5360,
+                                    "l1": 2420,
+                                    "a": 1,
+                                    "xtct": 1887,
                                     "capacity": 8903
                                 },
-                                "x": 2985,
+                                "x": -805,
                                 "data": [
                                     {
                                         "position": {
                                             "x": 0,
                                             "y": 0,
-                                            "z": -2200
+                                            "z": 4180
                                         },
-                                        "pos": 1400,
+                                        "pos": 7780,
                                         "min": 1551,
                                         "max": 4400,
-                                        "val": 20248
+                                        "val": 575
                                     },
                                     {
                                         "position": {
                                             "x": 0,
                                             "y": 0,
-                                            "z": -3500
+                                            "z": -1180
                                         },
-                                        "pos": 100,
+                                        "pos": 2420,
                                         "min": 2855,
                                         "max": 8100,
-                                        "val": -7700
+                                        "val": 10331
                                     }
                                 ]
                             },
                             "pr": {
                                 "history": {
-                                    "wg": 3500,
+                                    "wg": 3900,
                                     "l1": 2500,
-                                    "l2": 3000,
+                                    "l2": 6800,
                                     "a": 2,
-                                    "xtct": 300,
-                                    "capacity": 17930
+                                    "xtct": 3836,
+                                    "capacity": 17710
                                 },
-                                "x": 634,
+                                "x": 3400,
                                 "data": [
                                     {
                                         "position": {
                                             "x": 0,
                                             "y": 0,
-                                            "z": -1500
+                                            "z": -1150
                                         },
                                         "pos": 2500,
-                                        "min": 3150,
-                                        "max": 18000,
-                                        "val": 5358
+                                        "min": 1700,
+                                        "max": 12000,
+                                        "val": 2400
                                     },
                                     {
                                         "position": {
                                             "x": 0,
                                             "y": 0,
-                                            "z": 1500
+                                            "z": 5650
                                         },
-                                        "pos": 5500,
-                                        "min": 350,
-                                        "max": 1800,
-                                        "val": 942
+                                        "pos": 9300,
+                                        "min": 2200,
+                                        "max": 8000,
+                                        "val": 2900
                                     }
                                 ]
                             }
@@ -2417,14 +2417,14 @@
             ],
             "exist": [],
             "metrics": {
-                "durationMs": 34
+                "durationMs": 32
             },
             "loads_count": 1,
             "exist_count": 0
         },
         "places_count": 50,
         "is_overdraft": false,
-        "created_at": "2026-06-29T00:46:22.614Z"
+        "created_at": "2026-06-29T02:00:13.524Z"
     },
-    "timestamp": "2026-06-29T07:46:22.627Z"
+    "timestamp": "2026-06-29T09:00:13.538Z"
 }

@@ -4,11 +4,12 @@ export function summarize(result) {
     let places = 0, weight = 0, boxVol = 0, layerVol = 0;
     const dims = [];
     for (const layer of load.layers || []) {
-      weight += layer.weight || 0;
+      // NB: layer.weight echoes the transport's wg (gross rating), NOT cargo weight —
+      // payload is the sum of placed mesh weights.
       layerVol += layer.scale.x * layer.scale.y * layer.scale.z;
       dims.push({ x: layer.scale.x, y: layer.scale.y, z: layer.scale.z });
       for (const g of layer.groups || []) {
-        for (const m of g.data || []) { places++; boxVol += m.scale.x * m.scale.y * m.scale.z; }
+        for (const m of g.data || []) { places++; boxVol += m.scale.x * m.scale.y * m.scale.z; weight += m.weight || 0; }
       }
     }
     return {

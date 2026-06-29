@@ -1,9 +1,9 @@
 {
   "area": {
     "view": 2,
-    "nm": "Фургон грузовой",
+    "nm": "Грузовик Mercedes Atego 42м3",
     "sizes": [{ "ln": 7200, "wd": 2420, "hg": 2400, "wg": 8094 }],
-    "axes": { "flag": 1, "data": { "tt": { "a": 2, "wg": 4406, "l": 1300, "l1": 100, "n1": 1551, "n1max": 4400, "n2": 2341, "n2max": 8100 } } }
+    "axes": { "flag": 1, "data": { "tt": { "a": 2, "wg": 4406, "l": 5360, "l1": 2420, "n1": 1551, "n1max": 4400, "n2": 2855, "n2max": 8100 } } }
   },
   "item": [
     { "name": "Точка A", "data": [{ "name": "Паллет", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 10, "packing": 1, "stuck": 1 }] }

@@ -40,6 +40,13 @@ export function mountViewer(canvas, scene3d) {
   }
   for (const m of scene3d.axles || []) addAxleMarker(group, m);
 
+  // Align floor to the grid: layer boxes are centred on Y (floor at -height/2),
+  // so lift the whole group until its lowest point rests on y=0 (mesh coords are
+  // local to the layer, not world — this is the floor-alignment shift).
+  group.updateMatrixWorld(true);
+  const floorBox = new THREE.Box3().setFromObject(group);
+  if (!floorBox.isEmpty()) group.position.y = -floorBox.min.y;
+
   scene.add(new THREE.GridHelper(30, 30, 0x999999, 0xcccccc));
   scene.add(new THREE.AxesHelper(2)); // X=red=width, Y=green=height, Z=blue=length
 
