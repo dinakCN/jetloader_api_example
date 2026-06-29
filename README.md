@@ -4,15 +4,15 @@ Minimal, dependency-free examples that turn a **`POST /v1/calculate`** response 
 [JetLoader API](https://jload.me) into a 3D loading scene with [Three.js](https://threejs.org).
 
 Each example is a single static page: it loads a bundled API response and renders the
-transport as a wireframe box, the cargo as solid boxes, an axle-load readout, and a
-summary panel. The goal is to show **the coordinate system and the result→scene mapping**,
-not a production UI — there is no drag, hover, selection or animation.
+transport as a wireframe box, the cargo as solid boxes, an axle-load readout (auto models
+only), and a summary panel. The goal is to show **the coordinate system and the
+result→scene mapping**, not a production UI — there is no drag, hover, selection or animation.
 
 | Example | Model | Shows |
 |---|---|---|
 | `01-lorry/` | Mercedes Atego van (`view=2`) | single layer, cargo, axle loads (`tt`) |
 | `02-truck/` | Tractor + semitrailer (`view=1`) | single cargo body (13.6 m), axle groups `tt` (tractor) + `pp` (semitrailer) |
-| `03-coupling/` | Central-axle coupling (`view=4`) | **two layers** (lorry + trailer), axle loads (`tt`+`pr`), an overload (red) |
+| `03-coupling/` | Central-axle coupling (`view=4`) | **two layers** (lorry + trailer), axle loads (`tt`+`pr`), axle balancing (`setting_axesAware`) |
 | `04-container/` | 20DC container (`view=10`) | single layer, no axles |
 
 Cargo is coloured **per route point** (`history.color`), the way the production scene does
@@ -33,7 +33,9 @@ Orbit with the mouse. Three.js is loaded from a CDN via an import map (no build 
 
 ## The result → scene mapping
 
-All the logic lives in `shared/sceneFromResult.js` (pure, no Three.js). Read it first.
+The core result→scene mapping lives in `shared/sceneFromResult.js` (pure, no Three.js) —
+read it first. Axle markers are in `shared/axles.js` and the summary in `shared/summary.js`;
+the Three.js rendering is in `shared/viewer.js`.
 
 ### 1. Unwrap the envelope
 

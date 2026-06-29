@@ -38,28 +38,32 @@ export function mountViewer(canvas, scene3d) {
     edge.position.copy(mesh.position);
     group.add(edge);
   }
-  for (const m of scene3d.axles || []) addAxleMarker(group, m);
-
-  // Align floor to the grid: layer boxes are centred on Y (floor at -height/2),
-  // so lift the whole group until its lowest point rests on y=0 (mesh coords are
-  // local to the layer, not world — this is the floor-alignment shift).
+  // Align floor to the grid from the transport + cargo ONLY — compute the bbox before
+  // adding axle markers, so decoration sprites/lines don't pull min.y below the floor.
+  // Layer boxes are centred on Y (floor at -height/2); lift the group so the floor rests
+  // on y=0. Markers are added after the shift and land on the floor via their own floorY.
   group.updateMatrixWorld(true);
   const floorBox = new THREE.Box3().setFromObject(group);
   if (!floorBox.isEmpty()) group.position.y = -floorBox.min.y;
+
+  for (const m of scene3d.axles || []) addAxleMarker(group, m);
 
   scene.add(new THREE.GridHelper(30, 30, 0x999999, 0xcccccc));
   scene.add(new THREE.AxesHelper(2)); // X=red=width, Y=green=height, Z=blue=length
 
   const controls = new OrbitControls(camera, renderer.domElement);
 
+  // resize only adjusts the projection — the camera is framed once at init so a window
+  // resize never resets the user's orbit/zoom.
   function resize() {
     const w = canvas.clientWidth, h = canvas.clientHeight;
     renderer.setSize(w, h, false);
     camera.aspect = w / h || 1;
-    fitCameraToScene(camera, controls, group);
+    camera.updateProjectionMatrix();
   }
   window.addEventListener('resize', resize);
   resize();
+  fitCameraToScene(camera, controls, group);
   renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
 
   return {
@@ -68,7 +72,7 @@ export function mountViewer(canvas, scene3d) {
       renderer.setAnimationLoop(null);
       controls.dispose();
       scene.traverse((o) => {
-        if (o.geometry) o.geometry.dispose();
+        if (o.geometry && !o.isSprite) o.geometry.dispose(); // Sprite.geometry is a shared singleton
         const mats = Array.isArray(o.material) ? o.material : (o.material ? [o.material] : []);
         for (const m of mats) { if (m.map) m.map.dispose(); m.dispose(); }
       });
@@ -106,7 +110,15 @@ function makeLabelSprite(text, color) {
 export function fitCameraToScene(camera, controls, object3D) {
   object3D.updateMatrixWorld(true);
   const box = new THREE.Box3().setFromObject(object3D);
-  if (box.isEmpty()) return;
+  if (box.isEmpty()) {
+    // empty / zero-placement result — show the grid from a sensible default pose
+    camera.position.set(8, 8, 8);
+    camera.lookAt(0, 0, 0);
+    camera.updateProjectionMatrix();
+    controls.target.set(0, 0, 0);
+    controls.update();
+    return;
+  }
   const size = box.getSize(new THREE.Vector3());
   const center = box.getCenter(new THREE.Vector3());
   const halfFovY = THREE.MathUtils.degToRad(camera.fov * 0.5);
