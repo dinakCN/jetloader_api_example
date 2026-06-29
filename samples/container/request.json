@@ -1,0 +1,10 @@
+{
+  "area": {
+    "view": 10,
+    "nm": "20ft",
+    "sizes": [{ "ln": 5900, "wd": 2350, "hg": 2390, "wg": 28000 }]
+  },
+  "item": [
+    { "name": "Точка A", "data": [{ "name": "Паллет", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 10, "packing": 1, "stuck": 1 }] }
+  ]
+}

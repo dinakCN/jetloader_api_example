@@ -1,0 +1,2430 @@
+{
+    "success": true,
+    "data": {
+        "id": 2022,
+        "result": {
+            "success": true,
+            "loads": [
+                {
+                    "id": 1,
+                    "name": "\u0421\u0446\u0435\u043f\u043a\u0430 (\u0446\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u043e\u0441\u043d\u044b\u0439)",
+                    "view": 4,
+                    "type": 0,
+                    "layers": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "scale": {
+                                "x": 2420,
+                                "y": 2400,
+                                "z": 7200
+                            },
+                            "plus": {
+                                "wg": 7200,
+                                "cn": 36,
+                                "vl": 8640000000
+                            },
+                            "maxn": {
+                                "x": 1190,
+                                "y": -700,
+                                "z": -3600
+                            },
+                            "max_l": 7200,
+                            "max_h": 500,
+                            "max_w": 2400,
+                            "weight": 8094,
+                            "groups": [
+                                {
+                                    "id": 1,
+                                    "name": "\u0422\u043e\u0447\u043a\u0430 A",
+                                    "data": [
+                                        {
+                                            "uuid": 315703,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": 3200
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315740,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": 3200
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315761,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": 3200
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315781,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": 3200
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315806,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": 2400
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315828,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": 2400
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315857,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": 2400
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315878,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": 2400
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315900,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": 1600
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315923,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": 1600
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315941,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": 1600
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315962,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": 1600
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 315980,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": 800
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316007,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": 800
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316036,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": 800
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316081,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": 800
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316099,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": 0
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316131,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": 0
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316155,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": 0
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316170,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": 0
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316181,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": -800
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316199,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": -800
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316228,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": -800
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316249,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": -800
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316263,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": -1600
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316285,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": -1600
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316302,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": -1600
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316320,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": -1600
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316331,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": -2400
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316373,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": -2400
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316392,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": -2400
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316414,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": -2400
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316435,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": -3200
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316462,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": -3200
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316487,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": -3200
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 316504,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": -3200
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "vertices": [],
+                            "dir_z": -1,
+                            "dir_x": 1,
+                            "ln_axis": "z"
+                        },
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "scale": {
+                                "x": 2420,
+                                "y": 2400,
+                                "z": 8000
+                            },
+                            "plus": {
+                                "wg": 2800,
+                                "cn": 14,
+                                "vl": 3360000000
+                            },
+                            "maxn": {
+                                "x": 1190,
+                                "y": -700,
+                                "z": -2266
+                            },
+                            "max_l": 2800,
+                            "max_h": 500,
+                            "max_w": 2400,
+                            "weight": 3500,
+                            "groups": [
+                                {
+                                    "id": 1,
+                                    "name": "\u0422\u043e\u0447\u043a\u0430 A",
+                                    "data": [
+                                        {
+                                            "uuid": 321252,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": 134
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321292,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": 134
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321318,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": 134
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321334,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": 134
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321358,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -910,
+                                                "y": -950,
+                                                "z": -666
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321375,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -310,
+                                                "y": -950,
+                                                "z": -666
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321382,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 290,
+                                                "y": -950,
+                                                "z": -666
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321409,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 890,
+                                                "y": -950,
+                                                "z": -666
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 600,
+                                                "y": 500,
+                                                "z": 800
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321438,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -810,
+                                                "y": -950,
+                                                "z": -1366
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 800,
+                                                "y": 500,
+                                                "z": 600
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 90,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321457,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -10,
+                                                "y": -950,
+                                                "z": -1366
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 800,
+                                                "y": 500,
+                                                "z": 600
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 90,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321479,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 790,
+                                                "y": -950,
+                                                "z": -1366
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 800,
+                                                "y": 500,
+                                                "z": 600
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 90,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321507,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -810,
+                                                "y": -950,
+                                                "z": -1966
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 800,
+                                                "y": 500,
+                                                "z": 600
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 90,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321517,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": -10,
+                                                "y": -950,
+                                                "z": -1966
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 800,
+                                                "y": 500,
+                                                "z": 600
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 90,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        },
+                                        {
+                                            "uuid": 321536,
+                                            "id": 1,
+                                            "weight": 200,
+                                            "square": 480000,
+                                            "count": 1,
+                                            "stuck": 0,
+                                            "limit": 0,
+                                            "press": 0,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 790,
+                                                "y": -950,
+                                                "z": -1966
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 800,
+                                                "y": 500,
+                                                "z": 600
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 90,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 1,
+                                                "id": 1,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "length": 800,
+                                                "width": 600,
+                                                "height": 500,
+                                                "weight": 200,
+                                                "count": 50,
+                                                "stuck": 0,
+                                                "limit": 0,
+                                                "color": "#CCCCCC",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "vertices": [],
+                            "dir_z": -1,
+                            "dir_x": 1,
+                            "ln_axis": "z"
+                        }
+                    ],
+                    "axes": {
+                        "flag": 1,
+                        "data": {
+                            "tt": {
+                                "history": {
+                                    "wg": 4406,
+                                    "l": 1300,
+                                    "l1": 100,
+                                    "a": 2,
+                                    "xtct": 458,
+                                    "capacity": 8903
+                                },
+                                "x": 2985,
+                                "data": [
+                                    {
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": -2200
+                                        },
+                                        "pos": 1400,
+                                        "min": 1551,
+                                        "max": 4400,
+                                        "val": 20248
+                                    },
+                                    {
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": -3500
+                                        },
+                                        "pos": 100,
+                                        "min": 2855,
+                                        "max": 8100,
+                                        "val": -7700
+                                    }
+                                ]
+                            },
+                            "pr": {
+                                "history": {
+                                    "wg": 3500,
+                                    "l1": 2500,
+                                    "l2": 3000,
+                                    "a": 2,
+                                    "xtct": 300,
+                                    "capacity": 17930
+                                },
+                                "x": 634,
+                                "data": [
+                                    {
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": -1500
+                                        },
+                                        "pos": 2500,
+                                        "min": 3150,
+                                        "max": 18000,
+                                        "val": 5358
+                                    },
+                                    {
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 1500
+                                        },
+                                        "pos": 5500,
+                                        "min": 350,
+                                        "max": 1800,
+                                        "val": 942
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "exist": [],
+            "metrics": {
+                "durationMs": 34
+            },
+            "loads_count": 1,
+            "exist_count": 0
+        },
+        "places_count": 50,
+        "is_overdraft": false,
+        "created_at": "2026-06-29T00:46:22.614Z"
+    },
+    "timestamp": "2026-06-29T07:46:22.627Z"
+}
