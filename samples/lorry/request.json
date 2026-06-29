@@ -6,6 +6,8 @@
     "axes": { "flag": 1, "data": { "tt": { "a": 2, "wg": 4406, "l": 5360, "l1": 2420, "n1": 1551, "n1max": 4400, "n2": 2855, "n2max": 8100 } } }
   },
   "item": [
-    { "name": "Точка A", "data": [{ "name": "Паллет", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 10, "packing": 1, "stuck": 1 }] }
+    { "name": "Точка A", "data": [{ "name": "Паллет A", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 4, "packing": 1, "stuck": 1, "color": "#e15759" }] },
+    { "name": "Точка B", "data": [{ "name": "Паллет B", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 4, "packing": 1, "stuck": 1, "color": "#4e79a7" }] },
+    { "name": "Точка C", "data": [{ "name": "Паллет C", "length": 1000, "width": 800, "height": 700, "weight": 300, "count": 3, "packing": 1, "stuck": 1, "color": "#59a14f" }] }
   ]
 }

@@ -5,6 +5,8 @@
     "sizes": [{ "ln": 5895, "wd": 2330, "hg": 2381, "wg": 28140 }]
   },
   "item": [
-    { "name": "Точка A", "data": [{ "name": "Паллет", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 10, "packing": 1, "stuck": 1 }] }
+    { "name": "Точка A", "data": [{ "name": "Паллет A", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 5, "packing": 1, "stuck": 1, "color": "#e15759" }] },
+    { "name": "Точка B", "data": [{ "name": "Паллет B", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 5, "packing": 1, "stuck": 1, "color": "#4e79a7" }] },
+    { "name": "Точка C", "data": [{ "name": "Паллет C", "length": 1000, "width": 800, "height": 600, "weight": 250, "count": 4, "packing": 1, "stuck": 1, "color": "#59a14f" }] }
   ]
 }

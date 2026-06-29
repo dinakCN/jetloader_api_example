@@ -1,0 +1,17 @@
+{
+  "area": {
+    "view": 1,
+    "nm": "Еврофура (тягач + полуприцеп) 92м3",
+    "sizes": [{ "ln": 13600, "wd": 2450, "hg": 2700, "wg": 22000 }],
+    "axes": { "flag": 1, "data": {
+      "tt": { "a": 2, "wg": 7906, "l": 3760, "l1": 3144, "n1": 5565, "n1max": 7750, "n2": 2341, "n2max": 10500 },
+      "pp": { "a": 3, "wg": 6509, "l1": 1700, "l2": 7640, "l3": 4260, "n2": 5207, "n2max": 24000 }
+    } }
+  },
+  "item": [
+    { "name": "Точка A", "data": [{ "name": "Паллет A", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 14, "packing": 1, "stuck": 0, "color": "#e15759" }] },
+    { "name": "Точка B", "data": [{ "name": "Паллет B", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 12, "packing": 1, "stuck": 0, "color": "#4e79a7" }] },
+    { "name": "Точка C", "data": [{ "name": "Паллет C", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 12, "packing": 1, "stuck": 0, "color": "#59a14f" }] },
+    { "name": "Точка D", "data": [{ "name": "Паллет D", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 12, "packing": 1, "stuck": 0, "color": "#edc948" }] }
+  ]
+}

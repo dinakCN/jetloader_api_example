@@ -9,35 +9,37 @@ const cellRow = (tag, cells) => {
   return tr;
 };
 
-/** Render the summary into a DOM container (HTML overlay). */
+/** Render the summary into a DOM container (HTML overlay). summary = { loadsCount, load }. */
 export function renderSummary(container, summary) {
   container.replaceChildren();
-  summary.forEach((t, idx) => {
-    if (idx > 0) container.appendChild(document.createElement('hr'));
-    const block = document.createElement('div');
+  const t = summary.load;
+  if (summary.loadsCount > 1) {
+    const note = line(`Transports: ${summary.loadsCount} (showing #1)`);
+    note.style.fontWeight = 'bold';
+    container.appendChild(note);
+  }
+  if (!t) return;
 
-    const title = document.createElement('div');
-    const b = document.createElement('b');
-    b.textContent = t.name || 'Transport';
-    title.append(b, document.createTextNode(` (view ${t.view})`));
-    block.appendChild(title);
+  const title = document.createElement('div');
+  const b = document.createElement('b');
+  b.textContent = t.name || 'Transport';
+  title.append(b, document.createTextNode(` (view ${t.view})`));
+  container.appendChild(title);
 
-    const dims = t.dims.map((s) => `${M(s.x)}×${M(s.y)}×${M(s.z)}`).join(' / ');
-    block.append(line(`dims: ${dims} m`), line(`places: ${t.places}`), line(`weight: ${T(t.weight)} t`), line(`fill: ${t.fillPct}%`));
+  const dims = t.dims.map((s) => `${M(s.x)}×${M(s.y)}×${M(s.z)}`).join(' / ');
+  container.append(line(`dims: ${dims} m`), line(`places: ${t.places}`), line(`weight: ${T(t.weight)} t`), line(`fill: ${t.fillPct}%`));
 
-    if (t.axes) {
-      const table = document.createElement('table');
-      table.appendChild(cellRow('th', ['axle', 'load', 'max']));
-      for (const g of ['tt', 'pp', 'pr']) {
-        if (!t.axes[g]) continue;
-        t.axes[g].forEach((a, i) => {
-          const tr = cellRow('td', [`${g} n${i + 1}`, `${T(a.val)} t`, a.max ? `${T(a.max)} t` : '—']);
-          if (a.overload) tr.className = 'overload';
-          table.appendChild(tr);
-        });
-      }
-      block.appendChild(table);
+  if (t.axes) {
+    const table = document.createElement('table');
+    table.appendChild(cellRow('th', ['axle', 'load', 'max']));
+    for (const g of ['tt', 'pp', 'pr']) {
+      if (!t.axes[g]) continue;
+      t.axes[g].forEach((a, i) => {
+        const tr = cellRow('td', [`${g} n${i + 1}`, `${T(a.val)} t`, a.max ? `${T(a.max)} t` : '—']);
+        if (a.overload) tr.className = 'overload';
+        table.appendChild(tr);
+      });
     }
-    container.appendChild(block);
-  });
+    container.appendChild(table);
+  }
 }

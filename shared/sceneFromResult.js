@@ -11,26 +11,15 @@ export function extractResult(response) {
 }
 
 /**
- * Per-layer Z offset (mm). The /v1 response carries no inter-layer offset
- * (layer.position is {0,0,0}); it is user data with this sequential default:
- * each layer centred at the cumulative length of preceding layers, the whole
- * assembly centred at origin. Single layer -> 0.
+ * World centre of a placed item, in metres: (layer.position + mesh.position) / 1000.
+ * The inter-layer offset (e.g. a trailer behind a lorry) lives in `layer.position` —
+ * it comes from the layer position you send in the request (`area.sizes[i].position`).
  */
-export function layerOffsetsZ(load) {
-  const lens = (load.layers || []).map((l) => l.scale.z);
-  const total = lens.reduce((a, b) => a + b, 0);
-  const offsets = [];
-  let cursor = 0;
-  for (const len of lens) { offsets.push(cursor + len / 2 - total / 2); cursor += len; }
-  return offsets;
-}
-
-/** World centre of a placed item, in metres. layerZ = layerOffsetsZ()[layerIndex]. */
-export function worldCenter(layer, mesh, layerZ) {
+export function worldCenter(layer, mesh) {
   return {
     x: (layer.position.x + mesh.position.x) * MM_TO_M,
     y: (layer.position.y + mesh.position.y) * MM_TO_M,
-    z: (layer.position.z + layerZ + mesh.position.z) * MM_TO_M,
+    z: (layer.position.z + mesh.position.z) * MM_TO_M,
   };
 }
 
@@ -42,28 +31,30 @@ export function colorForBox(mesh) {
   return PALETTE[point % PALETTE.length];
 }
 
-/** Map a calc result to framework-agnostic primitives (metres, no rotation). */
+/**
+ * Map a calc result to framework-agnostic primitives (metres, no rotation).
+ * Renders the FIRST transport only (loads[0]); when the cargo spills into more
+ * than one vehicle the others are summarised by count, not drawn (see summarize()).
+ */
 export function sceneFromResult(result) {
   const transports = [];
   const boxes = [];
-  for (const load of result.loads || []) {
-    const offsets = layerOffsetsZ(load);
-    (load.layers || []).forEach((layer, li) => {
-      const lz = offsets[li];
-      transports.push({
-        center: { x: layer.position.x * MM_TO_M, y: layer.position.y * MM_TO_M, z: (layer.position.z + lz) * MM_TO_M },
-        size: { x: layer.scale.x * MM_TO_M, y: layer.scale.y * MM_TO_M, z: layer.scale.z * MM_TO_M },
-      });
-      for (const group of layer.groups || []) {
-        for (const mesh of group.data || []) {
-          boxes.push({
-            center: worldCenter(layer, mesh, lz),
-            size: { x: mesh.scale.x * MM_TO_M, y: mesh.scale.y * MM_TO_M, z: mesh.scale.z * MM_TO_M },
-            color: colorForBox(mesh),
-          });
-        }
-      }
+  const load = (result.loads || [])[0];
+  if (!load) return { transports, boxes };
+  for (const layer of load.layers || []) {
+    transports.push({
+      center: { x: layer.position.x * MM_TO_M, y: layer.position.y * MM_TO_M, z: layer.position.z * MM_TO_M },
+      size: { x: layer.scale.x * MM_TO_M, y: layer.scale.y * MM_TO_M, z: layer.scale.z * MM_TO_M },
     });
+    for (const group of layer.groups || []) {
+      for (const mesh of group.data || []) {
+        boxes.push({
+          center: worldCenter(layer, mesh),
+          size: { x: mesh.scale.x * MM_TO_M, y: mesh.scale.y * MM_TO_M, z: mesh.scale.z * MM_TO_M },
+          color: colorForBox(mesh),
+        });
+      }
+    }
   }
   return { transports, boxes };
 }

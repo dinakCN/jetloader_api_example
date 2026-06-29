@@ -1,7 +1,7 @@
 {
     "success": true,
     "data": {
-        "id": 2023,
+        "id": 2027,
         "result": {
             "success": true,
             "loads": [
@@ -23,16 +23,16 @@
                                 "z": 7200
                             },
                             "plus": {
-                                "wg": 2000,
-                                "cn": 10,
-                                "vl": 2400000000
+                                "wg": 2500,
+                                "cn": 11,
+                                "vl": 3600000000
                             },
                             "maxn": {
                                 "x": 1190,
                                 "y": 800,
-                                "z": 3000
+                                "z": 1800
                             },
-                            "max_l": 600,
+                            "max_l": 1800,
                             "max_h": 2000,
                             "max_w": 2400,
                             "weight": 8094,
@@ -42,7 +42,7 @@
                                     "name": "\u0422\u043e\u0447\u043a\u0430 A",
                                     "data": [
                                         {
-                                            "uuid": 323445,
+                                            "uuid": 340858,
                                             "id": 1,
                                             "weight": 200,
                                             "square": 480000,
@@ -72,22 +72,22 @@
                                             "history": {
                                                 "point": 1,
                                                 "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 A",
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
                                                 "weight": 200,
-                                                "count": 10,
+                                                "count": 4,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#e15759",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
                                             }
                                         },
                                         {
-                                            "uuid": 323478,
+                                            "uuid": 340885,
                                             "id": 1,
                                             "weight": 200,
                                             "square": 480000,
@@ -105,7 +105,7 @@
                                             },
                                             "touch": [
                                                 {
-                                                    "meshID": 323445,
+                                                    "meshID": 340858,
                                                     "square": 480000
                                                 }
                                             ],
@@ -122,22 +122,22 @@
                                             "history": {
                                                 "point": 1,
                                                 "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 A",
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
                                                 "weight": 200,
-                                                "count": 10,
+                                                "count": 4,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#e15759",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
                                             }
                                         },
                                         {
-                                            "uuid": 323490,
+                                            "uuid": 340902,
                                             "id": 1,
                                             "weight": 200,
                                             "square": 480000,
@@ -155,7 +155,7 @@
                                             },
                                             "touch": [
                                                 {
-                                                    "meshID": 323478,
+                                                    "meshID": 340885,
                                                     "square": 480000
                                                 }
                                             ],
@@ -172,22 +172,22 @@
                                             "history": {
                                                 "point": 1,
                                                 "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 A",
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
                                                 "weight": 200,
-                                                "count": 10,
+                                                "count": 4,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#e15759",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
                                             }
                                         },
                                         {
-                                            "uuid": 323499,
+                                            "uuid": 340928,
                                             "id": 1,
                                             "weight": 200,
                                             "square": 480000,
@@ -205,7 +205,7 @@
                                             },
                                             "touch": [
                                                 {
-                                                    "meshID": 323490,
+                                                    "meshID": 340902,
                                                     "square": 480000
                                                 }
                                             ],
@@ -222,23 +222,29 @@
                                             "history": {
                                                 "point": 1,
                                                 "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 A",
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
                                                 "weight": 200,
-                                                "count": 10,
+                                                "count": 4,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#e15759",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
                                             }
-                                        },
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "\u0422\u043e\u0447\u043a\u0430 B",
+                                    "data": [
                                         {
-                                            "uuid": 323512,
-                                            "id": 1,
+                                            "uuid": 341287,
+                                            "id": 2,
                                             "weight": 200,
                                             "square": 480000,
                                             "count": 1,
@@ -265,25 +271,25 @@
                                                 "z": 0
                                             },
                                             "history": {
-                                                "point": 1,
-                                                "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "point": 2,
+                                                "id": 2,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 B",
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
                                                 "weight": 200,
-                                                "count": 10,
+                                                "count": 4,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#4e79a7",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
                                             }
                                         },
                                         {
-                                            "uuid": 323520,
-                                            "id": 1,
+                                            "uuid": 341306,
+                                            "id": 2,
                                             "weight": 200,
                                             "square": 480000,
                                             "count": 1,
@@ -300,7 +306,7 @@
                                             },
                                             "touch": [
                                                 {
-                                                    "meshID": 323512,
+                                                    "meshID": 341287,
                                                     "square": 480000
                                                 }
                                             ],
@@ -315,25 +321,25 @@
                                                 "z": 0
                                             },
                                             "history": {
-                                                "point": 1,
-                                                "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "point": 2,
+                                                "id": 2,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 B",
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
                                                 "weight": 200,
-                                                "count": 10,
+                                                "count": 4,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#4e79a7",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
                                             }
                                         },
                                         {
-                                            "uuid": 323530,
-                                            "id": 1,
+                                            "uuid": 341323,
+                                            "id": 2,
                                             "weight": 200,
                                             "square": 480000,
                                             "count": 1,
@@ -350,7 +356,7 @@
                                             },
                                             "touch": [
                                                 {
-                                                    "meshID": 323520,
+                                                    "meshID": 341306,
                                                     "square": 480000
                                                 }
                                             ],
@@ -365,25 +371,25 @@
                                                 "z": 0
                                             },
                                             "history": {
-                                                "point": 1,
-                                                "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "point": 2,
+                                                "id": 2,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 B",
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
                                                 "weight": 200,
-                                                "count": 10,
+                                                "count": 4,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#4e79a7",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
                                             }
                                         },
                                         {
-                                            "uuid": 323540,
-                                            "id": 1,
+                                            "uuid": 341335,
+                                            "id": 2,
                                             "weight": 200,
                                             "square": 480000,
                                             "count": 1,
@@ -400,7 +406,7 @@
                                             },
                                             "touch": [
                                                 {
-                                                    "meshID": 323530,
+                                                    "meshID": 341323,
                                                     "square": 480000
                                                 }
                                             ],
@@ -415,44 +421,95 @@
                                                 "z": 0
                                             },
                                             "history": {
-                                                "point": 1,
-                                                "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
+                                                "point": 2,
+                                                "id": 2,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 B",
                                                 "length": 800,
                                                 "width": 600,
                                                 "height": 500,
                                                 "weight": 200,
-                                                "count": 10,
+                                                "count": 4,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#4e79a7",
+                                                "packing": 1,
+                                                "rotate": 1,
+                                                "overturn": 0
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "\u0422\u043e\u0447\u043a\u0430 C",
+                                    "data": [
+                                        {
+                                            "uuid": 341825,
+                                            "id": 3,
+                                            "weight": 300,
+                                            "square": 800000,
+                                            "count": 1,
+                                            "stuck": 1,
+                                            "limit": 0,
+                                            "press": 300,
+                                            "packing": 1,
+                                            "rotate": 1,
+                                            "overturn": 0,
+                                            "position": {
+                                                "x": 790,
+                                                "y": -850,
+                                                "z": 3100
+                                            },
+                                            "touch": [],
+                                            "scale": {
+                                                "x": 800,
+                                                "y": 700,
+                                                "z": 1000
+                                            },
+                                            "euler": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            },
+                                            "history": {
+                                                "point": 3,
+                                                "id": 3,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 C",
+                                                "length": 1000,
+                                                "width": 800,
+                                                "height": 700,
+                                                "weight": 300,
+                                                "count": 3,
+                                                "stuck": 1,
+                                                "limit": 0,
+                                                "color": "#59a14f",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
                                             }
                                         },
                                         {
-                                            "uuid": 323590,
-                                            "id": 1,
-                                            "weight": 200,
-                                            "square": 480000,
+                                            "uuid": 341845,
+                                            "id": 3,
+                                            "weight": 300,
+                                            "square": 800000,
                                             "count": 1,
                                             "stuck": 1,
                                             "limit": 0,
-                                            "press": 200,
+                                            "press": 0,
                                             "packing": 1,
                                             "rotate": 1,
                                             "overturn": 0,
                                             "position": {
-                                                "x": 790,
-                                                "y": -950,
-                                                "z": 3300
+                                                "x": -710,
+                                                "y": -850,
+                                                "z": 2200
                                             },
                                             "touch": [],
                                             "scale": {
-                                                "x": 800,
-                                                "y": 500,
-                                                "z": 600
+                                                "x": 1000,
+                                                "y": 700,
+                                                "z": 800
                                             },
                                             "euler": {
                                                 "x": 0,
@@ -460,27 +517,27 @@
                                                 "z": 0
                                             },
                                             "history": {
-                                                "point": 1,
-                                                "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
-                                                "length": 800,
-                                                "width": 600,
-                                                "height": 500,
-                                                "weight": 200,
-                                                "count": 10,
+                                                "point": 3,
+                                                "id": 3,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 C",
+                                                "length": 1000,
+                                                "width": 800,
+                                                "height": 700,
+                                                "weight": 300,
+                                                "count": 3,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#59a14f",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
                                             }
                                         },
                                         {
-                                            "uuid": 323598,
-                                            "id": 1,
-                                            "weight": 200,
-                                            "square": 480000,
+                                            "uuid": 341868,
+                                            "id": 3,
+                                            "weight": 300,
+                                            "square": 800000,
                                             "count": 1,
                                             "stuck": 1,
                                             "limit": 0,
@@ -490,37 +547,37 @@
                                             "overturn": 0,
                                             "position": {
                                                 "x": 790,
-                                                "y": -450,
-                                                "z": 3300
+                                                "y": -150,
+                                                "z": 3100
                                             },
                                             "touch": [
                                                 {
-                                                    "meshID": 323590,
-                                                    "square": 480000
+                                                    "meshID": 341825,
+                                                    "square": 800000
                                                 }
                                             ],
                                             "scale": {
                                                 "x": 800,
-                                                "y": 500,
-                                                "z": 600
+                                                "y": 700,
+                                                "z": 1000
                                             },
                                             "euler": {
                                                 "x": 0,
-                                                "y": 90,
+                                                "y": 0,
                                                 "z": 0
                                             },
                                             "history": {
-                                                "point": 1,
-                                                "id": 1,
-                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442",
-                                                "length": 800,
-                                                "width": 600,
-                                                "height": 500,
-                                                "weight": 200,
-                                                "count": 10,
+                                                "point": 3,
+                                                "id": 3,
+                                                "name": "\u041f\u0430\u043b\u043b\u0435\u0442 C",
+                                                "length": 1000,
+                                                "width": 800,
+                                                "height": 700,
+                                                "weight": 300,
+                                                "count": 3,
                                                 "stuck": 1,
                                                 "limit": 0,
-                                                "color": "#CCCCCC",
+                                                "color": "#59a14f",
                                                 "packing": 1,
                                                 "rotate": 1,
                                                 "overturn": 0
@@ -531,14 +588,44 @@
                             ],
                             "vertices": [
                                 {
-                                    "uuid": 323601,
+                                    "uuid": 341849,
+                                    "position": {
+                                        "x": -210,
+                                        "y": -1200,
+                                        "z": 2600
+                                    },
+                                    "distance": 6360.5346,
+                                    "parentUUID": 341845
+                                },
+                                {
+                                    "uuid": 341856,
+                                    "position": {
+                                        "x": -1210,
+                                        "y": -500,
+                                        "z": 2600
+                                    },
+                                    "distance": 6692.2642,
+                                    "parentUUID": 341845
+                                },
+                                {
+                                    "uuid": 341873,
                                     "position": {
                                         "x": 390,
-                                        "y": -200,
+                                        "y": -500,
+                                        "z": 2600
+                                    },
+                                    "distance": 6293.0438,
+                                    "parentUUID": 341868
+                                },
+                                {
+                                    "uuid": 341876,
+                                    "position": {
+                                        "x": 390,
+                                        "y": 200,
                                         "z": 3600
                                     },
-                                    "distance": 7315.217,
-                                    "parentUUID": 323598
+                                    "distance": 7380.542,
+                                    "parentUUID": 341868
                                 }
                             ],
                             "dir_z": -1,
@@ -558,7 +645,7 @@
                                     "xtct": 1887,
                                     "capacity": 8903
                                 },
-                                "x": 4480,
+                                "x": 4300,
                                 "data": [
                                     {
                                         "position": {
@@ -569,7 +656,7 @@
                                         "pos": 7780,
                                         "min": 1551,
                                         "max": 4400,
-                                        "val": 3223
+                                        "val": 3557
                                     },
                                     {
                                         "position": {
@@ -580,7 +667,7 @@
                                         "pos": 2420,
                                         "min": 2855,
                                         "max": 8100,
-                                        "val": 3183
+                                        "val": 3349
                                     }
                                 ]
                             }
@@ -590,14 +677,14 @@
             ],
             "exist": [],
             "metrics": {
-                "durationMs": 32
+                "durationMs": 16
             },
             "loads_count": 1,
             "exist_count": 0
         },
-        "places_count": 10,
+        "places_count": 11,
         "is_overdraft": false,
-        "created_at": "2026-06-29T01:54:15.875Z"
+        "created_at": "2026-06-29T02:14:20.852Z"
     },
-    "timestamp": "2026-06-29T08:54:15.877Z"
+    "timestamp": "2026-06-29T09:14:20.849Z"
 }

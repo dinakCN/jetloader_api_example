@@ -3,15 +3,19 @@
     "view": 4,
     "nm": "Сцепка центральноосная (Atego)",
     "sizes": [
-      { "ln": 7200, "wd": 2420, "hg": 2400, "wg": 8094 },
-      { "ln": 7300, "wd": 2480, "hg": 2680, "wg": 14100 }
+      { "ln": 7200, "wd": 2420, "hg": 2400, "wg": 8094, "position": { "x": 0, "y": 0, "z": 0 } },
+      { "ln": 7300, "wd": 2480, "hg": 2680, "wg": 14100, "position": { "x": 0, "y": 0, "z": -10100 } }
     ],
     "axes": { "flag": 1, "data": {
       "tt": { "a": 1, "wg": 4406, "l": 5360, "l1": 2420, "n1": 1551, "n1max": 4400, "n2": 2855, "n2max": 8100 },
       "pr": { "a": 2, "wg": 3900, "l1": 2500, "l2": 6800, "n1": 1700, "n1max": 12000, "n2": 2200, "n2max": 8000 }
-    } }
+    } },
+    "config": { "setting_axesAware": true }
   },
   "item": [
-    { "name": "Точка A", "data": [{ "name": "Паллет", "length": 800, "width": 600, "height": 500, "weight": 100, "count": 50, "packing": 1, "stuck": 0 }] }
+    { "name": "Точка A", "data": [{ "name": "Паллет A", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 15, "packing": 1, "stuck": 0, "color": "#e15759" }] },
+    { "name": "Точка B", "data": [{ "name": "Паллет B", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 15, "packing": 1, "stuck": 0, "color": "#4e79a7" }] },
+    { "name": "Точка C", "data": [{ "name": "Паллет C", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 15, "packing": 1, "stuck": 0, "color": "#59a14f" }] },
+    { "name": "Точка D", "data": [{ "name": "Паллет D", "length": 800, "width": 600, "height": 500, "weight": 200, "count": 15, "packing": 1, "stuck": 0, "color": "#edc948" }] }
   ]
 }

@@ -67,8 +67,9 @@ export function mountViewer(canvas, scene3d) {
 
 function addAxleMarker(group, m) {
   const color = m.overload ? OVERLOAD : 0x333333;
-  const start = new THREE.Vector3(m.sideX, m.center.y, m.center.z);
-  const end = new THREE.Vector3(m.sideX + 0.8, m.center.y, m.center.z);
+  const y = m.floorY; // leader + label sit on the floor
+  const start = new THREE.Vector3(m.sideX, y, m.center.z);
+  const end = new THREE.Vector3(m.sideX + 0.8, y, m.center.z);
   group.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([start, end]), new THREE.LineBasicMaterial({ color })));
   const label = makeLabelSprite(formatTons(m.val), m.overload ? '#e15759' : '#222222');
   label.position.copy(end).add(new THREE.Vector3(0.6, 0, 0));
