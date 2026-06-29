@@ -28,7 +28,7 @@ npx serve .
 # or:  python3 -m http.server 8080
 ```
 
-Then open `http://localhost:<port>/01-lorry/` (and `02-coupling/`, `03-container/`).
+Then open `http://localhost:<port>/01-lorry/` (and `02-truck/`, `03-coupling/`, `04-container/`).
 Orbit with the mouse. Three.js is loaded from a CDN via an import map (no build step).
 
 ## The result → scene mapping
@@ -66,16 +66,13 @@ center = layer.position + mesh.position      // mesh.position is the centre, loc
 
 ### 4. Layers and the floor
 
-`layer.position` is `{0,0,0}` in the `/v1` response — the offset between layers (e.g. a
-trailer behind a lorry) is **your data**: it normally comes from the layer position you send
-in the request. When it is absent, these examples lay layers out sequentially along Z:
-
-```
-layerOffsetZ_i = (Σ length of preceding layers) + length_i / 2 − total / 2
-```
+`layer.position` in the response **echoes the position you sent** in the request
+(`area.sizes[i].position`). The offset between layers — e.g. a trailer behind a lorry — is
+therefore your input, and the code uses `layer.position` directly (see `worldCenter`). The
+coupling example sends the trailer at `position.z = -10100` and gets it back unchanged.
 
 Each layer box is centred on Y, so its floor is at `−height/2`; the viewer lifts the whole
-group so the floor rests on the grid (`y = 0`). Adapt the spacing to your own needs.
+group so the floor rests on the grid (`y = 0`).
 
 ### 5. Axle markers
 

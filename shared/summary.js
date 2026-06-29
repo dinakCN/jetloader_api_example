@@ -34,7 +34,8 @@ function summarizeAxes(axes) {
   for (const g of ['tt', 'pp', 'pr']) {
     const grp = axes.data[g];
     if (!grp) continue;
-    out[g] = (grp.data || []).map((a) => ({ min: a.min, max: a.max, val: a.val, overload: a.max > 0 && a.val > a.max }));
+    // Skip invisible supports (kingpin / drawbar) with max === 0 — same as axles.js.
+    out[g] = (grp.data || []).filter((a) => a.max !== 0).map((a) => ({ min: a.min, max: a.max, val: a.val, overload: a.val > a.max }));
   }
   return Object.keys(out).length ? out : null;
 }

@@ -1,5 +1,5 @@
 // Programmatic acceptance invariants (spec §7.2): no NaN; every box centre ±size/2
-// lies inside at least one transport bbox. Run: node scripts/check-invariants.mjs lorry truck container
+// lies inside at least one transport bbox. Run: node scripts/check-invariants.mjs lorry truck coupling container
 import { readFile } from 'node:fs/promises';
 import { extractResult, sceneFromResult } from '../shared/sceneFromResult.js';
 

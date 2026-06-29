@@ -62,7 +62,19 @@ export function mountViewer(canvas, scene3d) {
   resize();
   renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
 
-  return { dispose() { window.removeEventListener('resize', resize); renderer.setAnimationLoop(null); renderer.dispose(); } };
+  return {
+    dispose() {
+      window.removeEventListener('resize', resize);
+      renderer.setAnimationLoop(null);
+      controls.dispose();
+      scene.traverse((o) => {
+        if (o.geometry) o.geometry.dispose();
+        const mats = Array.isArray(o.material) ? o.material : (o.material ? [o.material] : []);
+        for (const m of mats) { if (m.map) m.map.dispose(); m.dispose(); }
+      });
+      renderer.dispose();
+    },
+  };
 }
 
 function addAxleMarker(group, m) {

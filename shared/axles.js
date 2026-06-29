@@ -1,7 +1,8 @@
 // SOLO-like axle markers from the response (no formula port — engine emits positions).
 // Group -> layer index: tt=tractor/lorry layer, pp=semitrailer, pr=coupling trailer.
 // Axle position is local to its layer, so world = layer.position + axle.position — the
-// same mapping as the boxes. VERIFY GROUP_LAYER against the real sample.
+// same mapping as the boxes. GROUP_LAYER (below) is verified against all sample responses
+// (Math.min clamps pp/pr to layer 0 on single-layer transports).
 const MM_TO_M = 0.001;
 const GROUP_LAYER = { tt: 0, pp: 1, pr: 1 };
 
