@@ -24,11 +24,14 @@
   <div id="summary"></div>
   <script type="module">
     import { extractResult, sceneFromResult } from '../shared/sceneFromResult.js';
+    import { summarize } from '../shared/summary.js';
     import { mountViewer } from '../shared/viewer.js';
+    import { renderSummary } from '../shared/summaryPanel.js';
     const response = await fetch('../samples/lorry/response.json')
       .then((r) => { if (!r.ok) throw new Error('sample HTTP ' + r.status); return r.json(); });
     const result = extractResult(response);
     mountViewer(document.querySelector('canvas'), sceneFromResult(result));
+    renderSummary(document.getElementById('summary'), summarize(result));
   </script>
 </body>
 </html>
